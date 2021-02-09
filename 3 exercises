@@ -1,0 +1,75 @@
+=begin
+
+Looping with 'While'
+
+
+
+Use a while loop to print out the numbers 1 through 50, inclusive. 
+While the example above counts down, you will want to count up.
+Use print rather than puts, and don’t forget to increment your variable.
+=begin
+
+
+
+
+i=1
+while i<=50 do
+print i
+i +=1
+end
+
+
+=begin
+Looping with 'Until'
+
+
+=begin
+
+i = 3
+while i > 0 do
+  print i
+  i -= 1
+end
+ 
+j = 3
+until j == 0 do
+  print j
+  j -= 1
+end
+
+
+
+
+
+=begin
+Looping with 'For'
+=end
+
+for i in 1..50
+print i
+end
+
+
+=begin
+Exercise
+Use the loop iterator to print out the string "Ruby!" 30 times.
+=end
+
+i = 0
+loop do
+  print "Ruby!"
+  i += 1
+  break if i == 30
+end
+
+
+# Iterating with .times
+30.times { print "Ruby!" }
+
+
+
+
+
+
+
+
