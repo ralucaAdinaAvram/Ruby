@@ -1,0 +1,17 @@
+=begin
+Use a puts statement to prompt the user for input. 
+Use gets.chomp to save this input to a variable called text.
+=end
+
+puts "Type here...."
+text=gets.chomp
+
+
+
+
+
+# Declare a variable called words and set it equal to the result of calling .split on text.
+
+uts "Type here...."
+text=gets.chomp
+words = text.split
